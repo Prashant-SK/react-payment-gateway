@@ -8,7 +8,7 @@ function App() {
     <div>
     <h1>Hello World</h1>
     <Navbar/>
-    <Greeter name="Prashant"/>
+    <Greeter name="Prashant" age="24" sID={1}/>
     </div>
   );
 }
