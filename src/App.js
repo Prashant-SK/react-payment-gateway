@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   return (
     <div>
-    <Counter step={5}/>
+    <MoodToggler step={5}/>
     <Counter/>
     <h1>Hello World</h1>
     <Navbar/>
