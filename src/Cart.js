@@ -1,9 +1,15 @@
 import React from 'react';
+import CartItem from './CartItem';
 
-function Cart(){
+function Cart({ initialItems }){
     return (
         <div>
-            <h1>I am Cart</h1>
+            <h1>I am Cart</h1> 
+            <ul>
+                {initialItems && initialItems.map(item => (
+                    <CartItem {...item}/>
+                ))}
+            </ul>
         </div>
     )
 }

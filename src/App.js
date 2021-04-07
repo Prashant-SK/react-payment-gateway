@@ -17,7 +17,7 @@ const items = [
 function App() {
   return (
     <div>
-    <Cart items={items}/>
+    <Cart initialItems={items} />
     <MoodToggler step={5}/>
     <Counter/>
     <h1>Hello World</h1>
